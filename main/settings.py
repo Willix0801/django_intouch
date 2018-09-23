@@ -125,7 +125,6 @@ INSTALLED_APPS = (
     'customers',
     'suppliers',
     'geraldo',
-    'djcelery_email',
     'irbac',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
