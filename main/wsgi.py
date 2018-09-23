@@ -14,7 +14,12 @@ framework.
 
 """
 import os
+import sys
 
+path = '/home/willix0801/django_intouch'
+if path not in sys.path:
+  sys.path.append(path)
+  
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "main.settings")
 
 # This application object is used by any WSGI server configured to use this
